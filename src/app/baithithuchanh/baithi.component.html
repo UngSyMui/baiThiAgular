@@ -12,10 +12,9 @@
         </div>
         <div class="mail">
           <ul *ngFor="let s of data.data.categories">
-            <li class="first" *ngFor="let k of s.childs; let k = index;">
-              <i class="glyphicon glyphicon-user"></i> {{s.name}}
-              <p>{{s.childs[0].name}}</p>
-              <p>{{s.childs[0].des}}</p>
+            <li class="first" *ngFor="let k of s.childs">
+              <p>{{k.name}}</p>
+              <p>{{k.des}}</p>
             </li>
           </ul>
         </div>
