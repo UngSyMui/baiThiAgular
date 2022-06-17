@@ -1,0 +1,22 @@
+.container{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+
+}
+ul li{
+  list-style: none;
+}
+.sidebar{
+  width: 30%;
+  background-color: cornsilk;
+}
+.sidebar ul li:hover{
+  background-color: cadetblue;
+  cursor: pointer;
+}
+.content{
+  width: 70%;
+  background-color: antiquewhite;
+}

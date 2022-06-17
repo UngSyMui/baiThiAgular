@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="sidebar">
+    <div  *ngFor="let s of data.data.categories;let i = index;">
+      <p>{{s.name}}</p>
+      <ul *ngFor="let m of s.childs;let j=index;">
+        <li>
+          {{m.name}}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="content">
+    <ul *ngFor="let s of data.data.mails; let k=index;">
+      <li>
+        {{data.data.mails[k].subject}}
+        {{data.data.mails[k].email}}
+        {{data.data.mails[k].content}}
+        {{data.data.mails[k].category}}
+        {{data.data.mails[k].child}}
+      </li>
+    </ul>
+  </div>
+</div>

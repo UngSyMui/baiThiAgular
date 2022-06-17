@@ -1,0 +1,21 @@
+
+.li{
+  width: 100%;
+  background-color: #efeded;
+  padding: 10px;
+  border: 1px solid #f59494;
+  border-radius: 5px;
+}
+.task{
+  width: 100%;
+  background-color: #fafafa;
+  border: 1px solid #f5cccc;
+  border-radius: 5px;
+}
+.task ul{
+  padding: 30px;
+  border: 1px solid #e3dada;
+  margin-top: 20px;
+  background-color: #cdf8e9;
+  border-radius: 5px;
+}

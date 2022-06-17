@@ -1,0 +1,19 @@
+<div class="row">
+  <div class="col-md-12">
+    <div>
+      <ul  class="col-md-3 box" *ngFor="let s of data.data.categories">
+        <li class="li"><b>{{s.name}}</b></li>
+        <li>
+            <div class="task">
+              <ul *ngFor="let m of s.childs">
+                <li><b>{{m.name}}</b></li>
+                <li>{{m.description}}</li>
+              </ul>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+

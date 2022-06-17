@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+li{
+  list-style: none;
+}
+.avatar{
+  float: left;
+}
+.avatar i{
+  line-height: 75px;
+  font-size: 40px;
+  border: 1px solid;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+.mail{
+  float: left;
+}
+.left-side li a{
+  padding-left: 20px;
+  cursor: pointer;
+}
+.mail-list li{
+  float: left;
+  width: 100%;
+}

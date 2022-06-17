@@ -1,0 +1,21 @@
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Price</th>
+    <th>Quantity</th>
+  </tr>
+  </thead>
+  <tbody>
+  <!--      <tr *ngFor="let p of data">-->
+  <!--        <td>{{p.Id}}</td>-->
+  <!--        <td>{{p.ProductName}}</td>-->
+  <!--        <td>{{p.Price}}</td>-->
+  <!--        <td>{{p.Qty}}</td>-->
+  <!--      </tr>-->
+  <tr *ngFor="let p of data;let i = index" >
+    <app-product [product]="data[i]"></app-product>
+  </tr>
+  </tbody>
+</table>
