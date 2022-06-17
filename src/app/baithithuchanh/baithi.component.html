@@ -1,19 +1,25 @@
 <div class="row">
-  <div class="col-md-12">
-    <div>
-      <ul  class="col-md-3 box" *ngFor="let s of data.data.categories">
-        <li class="li"><b>{{s.name}}</b></li>
-        <li>
-          <div class="task">
-            <ul *ngFor="let m of s.childs">
-              <li><b>{{m.name}}</b></li>
-              <li>{{m.description}}</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
+  <div class="col-md-3 left-side columa">
+    <ul *ngFor="let s of data.data.categories">
+      <li class="first">
+        <i class="glyphicon glyphicon-user"></i> {{s.name}}
+      </li>
+    </ul>
   </div>
-
+  <div class="col-md-9 columb">
+        <div class="avatar">
+          <i class="glyphicon glyphicon-user"></i>
+        </div>
+        <div class="mail">
+          <ul *ngFor="let s of data.data.categories">
+            <li class="first" *ngFor="let k of s.childs; let k = index;">
+              <i class="glyphicon glyphicon-user"></i> {{s.name}}
+              <p>{{s.childs[0].name}}</p>
+              <p>{{s.childs[0].des}}</p>
+            </li>
+          </ul>
+        </div>
+    </div>
 </div>
+
 

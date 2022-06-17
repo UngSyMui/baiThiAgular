@@ -2,93 +2,136 @@
   "data": {
     "categories": [
       {
-        "name": "To Do",
+        "name": "Margaret",
         "childs": [
           {
-            "name": "Task 1",
-            "description": "Analyze the new requirements gathered from the customer."
+            "name": "Title",
+            "des": "Sale Repsentive"
           },
           {
-            "name": "Task 3",
-            "description": "Arrange a Web meeting with the customer to get new requirement."
+            "name": "Hire Date",
+            "des": "10/5/1996"
           },
           {
-            "name": "Task 10",
-            "description": "Show the retrieved"
+            "name": "Address",
+            "des": "7 Round"
           },
           {
-            "name": "Task 20",
-            "description": "Enhance editing"
+            "name": "City",
+            "des": "London"
+          },
+          {
+            "name": "Phone",
+            "des": "88888888"
           }
+
         ]
       },
       {
-        "name": "In Progress",
+        "name": "Laura",
         "childs": [
           {
-            "name": "Task 2",
-            "description": "Improve application performance."
+            "name": "Title",
+            "des": "Sale Repsentive"
           },
           {
-            "name": "Task 4",
-            "description": "Fix the issues reported in the IE browser."
+            "name": "Hire Date",
+            "des": "10/5/1996"
           },
           {
-            "name": "Task 11",
-            "description": "Fix cannot open user's."
+            "name": "Address",
+            "des": "7 Round"
           },
           {
-            "name": "Task 21",
-            "description": "Improve application performance of the editting."
+            "name": "City",
+            "des": "London"
+          },
+          {
+            "name": "Phone",
+            "des": "88888888"
           }
+
         ]
       },
       {
-        "name": "In Review",
+        "name": "Robert",
         "childs": [
           {
-            "name": "Task 5",
-            "description": "Improve application performance."
+            "name": "Title",
+            "des": "Sale Repsentive"
           },
           {
-            "name": "Task 7",
-            "description": "Fix the issues reported in the IE browser."
+            "name": "Hire Date",
+            "des": "10/5/1996"
           },
           {
-            "name": "Task 12",
-            "description": "Fix cannot open user's."
+            "name": "Address",
+            "des": "7 Round"
           },
           {
-            "name": "Task 19",
-            "description": "Improve application performance of the editting."
+            "name": "City",
+            "des": "London"
           },
           {
-            "name": "Task 23",
-            "description": "Improve application performance of the editting."
+            "name": "Phone",
+            "des": "88888888"
           }
+
         ]
       },
       {
-        "name": "Done",
+        "name": "Anderson",
         "childs": [
           {
-            "name": "Task 8",
-            "description": "Improve application performance."
+            "name": "Title",
+            "des": "Sale Repsentive"
           },
           {
-            "name": "Task 13",
-            "description": "Fix the issues reported in the IE browser."
+            "name": "Hire Date",
+            "des": "10/5/1996"
           },
           {
-            "name": "Task 15",
-            "description": "Fix cannot open user's."
+            "name": "Address",
+            "des": "7 Round"
           },
           {
-            "name": "Task 16",
-            "description": "Improve application performance of the editting."
+            "name": "City",
+            "des": "London"
+          },
+          {
+            "name": "Phone",
+            "des": "88888888"
           }
+
+        ]
+      },
+      {
+        "name": "Michael",
+        "childs": [
+          {
+            "name": "Title",
+            "des": "Sale Repsentive"
+          },
+          {
+            "name": "Hire Date",
+            "des": "10/5/1996"
+          },
+          {
+            "name": "Address",
+            "des": "7 Round"
+          },
+          {
+            "name": "City",
+            "des": "London"
+          },
+          {
+            "name": "Phone",
+            "des": "88888888"
+          }
+
         ]
       }
     ]
+
   }
 }

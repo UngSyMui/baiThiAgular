@@ -1,18 +1,23 @@
-export interface Child {
-  name: string;
-  description: string;
-}
 
-export interface Category {
-  header: string;
-  childs: Child[];
-  name: string;
-}
 
-export interface Data {
-  categories: Category[];
-}
+  export interface Child {
+    title: string;
+    des: string;
+    name: string;
+  }
 
-export interface IHeader {
-  data: Data;
-}
+  export interface Category {
+    name: string;
+    childs: Child[];
+  }
+
+  export interface Data {
+    categories: Category[];
+  }
+
+  export interface IHeader {
+    data: Data;
+  }
+
+
+
