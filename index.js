@@ -19,23 +19,12 @@ app.set("view engine","ejs");
 app.use(express.static("public"));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-//start session
-const session = require("express-session");
-app.use(session({
-    resave: true,
-    saveUninitialized: true,
-    secret: "t2203e",
-    cookie:{
-        maxAge: 6000,//miliseconds
-        // secure: true
-    }
-}))
+
 
 app.use("/user",userRouter);
 
 
 
-//connect mongodb
 
 
 
